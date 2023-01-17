@@ -1,0 +1,56 @@
+body {background-color: #f2f2f2;}
+h {
+  color:rgb(252, 82, 44); position: relative; left:0px; top: 180px;
+  font-size: 40px;
+} 
+a{
+  z-index: 999;
+}
+
+a.mylinkstyle1:link, a.mylinkstyle1:visited {
+  color: rgb(0, 0, 0);
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute; 
+  left: 300px; 
+  top:50px;
+  font-size: 30px ;
+}
+a:hover, a:active {
+  /* background-color: rgb(245, 189, 189); */
+  background-image:url("./img/hoverweb.gif");
+  background-size: cover;
+}
+
+a.mylinkstyle2:link, a.mylinkstyle2:visited { 
+  color: rgb(0, 0, 0);
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute; 
+  left: 100px; 
+  top:365px;
+  font-size: 30px ;
+}
+
+a.mylinkstyle3:link, a.mylinkstyle3:visited {
+  color: rgb(0, 0, 0);
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute; 
+  left: 550px; 
+  top:500px;
+  font-size: 30px ;  
+}
+
+
+img {
+    max-width: 98%;
+    height: auto;
+    position: absolute; left: 0px; top:-120px;
+      }
